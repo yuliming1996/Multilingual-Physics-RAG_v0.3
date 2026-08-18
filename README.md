@@ -16,6 +16,26 @@ The main goal is to build a physics-specialized RAG pipeline that can answer con
 
 
 ---
+## Installation  
+## 安装
+### 1.1 Clone the Repository
+            
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+
+cd RAG_project_phy
+```
+###1.2 Create a Virtual Environment 
+
+This project is developed and tested with Python 3.12.
+Create a virtual environment:
+
+
+
+
+
+
+
 
 # Features  
 # 核心功能
