@@ -106,6 +106,7 @@ export DEEPSEEK_API_KEY=your_api_key
 ```
 
 Note: Never upload .env files containing private API keys to GitHub.
+
 注意：包含 API Key 的 .env 文件禁止上传至 GitHub。
 
 # Features
