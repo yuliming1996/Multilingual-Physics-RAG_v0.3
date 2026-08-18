@@ -34,14 +34,15 @@ Create a virtual environment:
 
 本项目基于 Python 3.12 开发和测试。
 创建虚拟环境：
+
 ```bash
 python -m venv .venv
 ```
 
 Activate the environment:
 激活环境：
-macOS / Linux
 
+macOS / Linux
 ```bash
 source .venv/bin/activate
 ```
@@ -53,8 +54,10 @@ Windows
 
 ### 1.3 Install Dependencies
 ### 1.3 安装依赖
+
 Install all required Python packages:
 安装所有 Python 包
+
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -62,6 +65,7 @@ pip install -r requirements.txt
 
 ### 1.4 Configure Environment Variables
 ###1.4 配置环境变量
+
 Create a local environment configuration file:
 复制环境变量模板：
 
@@ -72,7 +76,6 @@ Then update .env with your API configuration:
 ```bash
 export DEEPSEEK_API_KEY=your_api_key
 ```
-
 
 
 # Features  
