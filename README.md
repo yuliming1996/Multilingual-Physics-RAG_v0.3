@@ -29,10 +29,13 @@ cd RAG_project_phy
 
 ### 1.2 Create a Virtual Environment 
 ### 1.2 创建虚拟环境
+
 This project is developed and tested with Python 3.12.
+
 Create a virtual environment:
 
 本项目基于 Python 3.12 开发和测试。
+
 创建虚拟环境：
 
 ```bash
@@ -40,6 +43,7 @@ python -m venv .venv
 ```
 
 Activate the environment:
+
 激活环境：
 
 macOS / Linux
@@ -65,7 +69,7 @@ pip install -r requirements.txt
 ```
 
 ### 1.4 Configure Environment Variables
-###1.4 配置环境变量
+### 1.4 配置环境变量
 
 Create a local environment configuration file:
 
