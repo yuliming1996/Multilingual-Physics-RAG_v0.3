@@ -15,6 +15,7 @@ The main goal is to build a physics-specialized RAG pipeline that can answer con
 项目目标是构建一个面向物理领域的专业 RAG 流程，使模型能够基于检索到的可靠物理资料进行回答，而不是完全依赖大语言模型自身参数记忆。
 
 The README file is written by English and Chinese, you can just read one of them.
+
 README 文档使用了中英双语，可以仅阅读其中一种语言。
 
 ---
