@@ -56,6 +56,7 @@ Windows
 ### 1.3 安装依赖
 
 Install all required Python packages:
+
 安装所有 Python 包
 
 ```bash
@@ -67,12 +68,15 @@ pip install -r requirements.txt
 ###1.4 配置环境变量
 
 Create a local environment configuration file:
+
 复制环境变量模板：
 
 ```bash
 cp .env.example .env
 ```
 Then update .env with your API configuration:
+
+填写 API 配置：
 ```bash
 export DEEPSEEK_API_KEY=your_api_key
 ```
