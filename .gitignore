@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# Python
+# =========================
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Formatting / linting tools
+.ruff_cache/
+
+# Logs
+*.log
+
+# RAG generated files
+*.faiss
+*.index
+indexes/
+vector_store/
+
+# Large/local data
+data/raw/
+data/processed/
+
+# Models
+models/
+checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
