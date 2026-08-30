@@ -95,6 +95,7 @@ python scripts/run_rag.py
 ```
 
 Type `q`, `quit`, or `exit` to leave interactive mode.
+
 You can change the answer language to English by setting  `ANSWER_LANGUAGE="English"` in `app/config.py`
 
 
