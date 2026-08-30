@@ -2,7 +2,7 @@
 
 # Multilingual Physics RAG System
 
-This is an end-to-end Retrieval-Augmented Generation (RAG) project for physics questions in Chinese and English. It cleans and chunks a local document collection, creates multilingual embeddings with BGE-M3, and builds a FAISS index. At query time, it rewrites and translates the question, expands the search in both languages, retrieves and reranks relevant chunks, and generates an answer from the retrieved context. The same pipeline can be adapted to other domains by changing the configuration and prompts.[^prompt-files]
+This is an end-to-end Retrieval-Augmented Generation (RAG) project for physics questions in Chinese and English. It cleans and chunks a local document collection, creates multilingual embeddings with BGE-M3, and builds a FAISS index. At query time, it rewrites and translates the question, expands the search in both languages, retrieves and reranks relevant chunks, and generates an answer from the retrieved context. Th is pipeline can  be easily adapted to other domains by changing the configuration and prompts.[^prompt-files]
 
 [^prompt-files]: The query-rewriting and translation prompt is defined in [`app/query/llm_rewriter.py`](app/query/llm_rewriter.py), while the answer-generation prompt is in [`app/generation/llm_generator.py`](app/generation/llm_generator.py). [`app/reranking/reranker.py`](app/reranking/reranker.py) uses a CrossEncoder and does not currently contain a prompt.
 
