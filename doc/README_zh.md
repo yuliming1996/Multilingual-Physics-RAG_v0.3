@@ -10,7 +10,6 @@
 
 ### 1. 克隆仓库
 
-请将 `<repository-url>` 替换为本仓库的实际地址：
 
 ```bash
 git clone https://github.com/yuliming1996/Multilingual-Physics-RAG_v0.3.git
