@@ -13,7 +13,7 @@ This is an end-to-end Retrieval-Augmented Generation (RAG) project for physics q
 
 ```bash
 git clone https://github.com/yuliming1996/Multilingual-Physics-RAG_v0.3.git
-cd RAG_physics_master
+cd Multilingual-Physics-RAG_v0.3
 ```
 
 ### 2. Create a virtual environment
