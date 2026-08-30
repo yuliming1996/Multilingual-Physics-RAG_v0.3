@@ -10,7 +10,6 @@ This is an end-to-end Retrieval-Augmented Generation (RAG) project for physics q
 
 ### 1. Clone the repository
 
-Replace `<repository-url>` with the URL of this repository:
 
 ```bash
 git clone https://github.com/yuliming1996/Multilingual-Physics-RAG_v0.3.git
