@@ -1,26 +1,4 @@
-# Python
-__pycache__/
-*.py[cod]
-
-# Virtual environment
-.venv/
-venv/
-
-# Secrets
-.env
-.env.*
-!.env.example
-
-# IDE
-.vscode/
-.idea/
-.DS_Store
-
-# =========================
-# Python
-# =========================
-
-# Byte-compiled / cache files
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
 *$py.class
@@ -29,32 +7,70 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
-# Testing
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, type-checking, and lint caches
 .pytest_cache/
-
-# Type checking
+.coverage
+.coverage.*
+htmlcov/
 .mypy_cache/
-
-# Formatting / linting tools
+.pyright/
 .ruff_cache/
-
-# Logs
-*.log
-
-# RAG generated files
-*.faiss
-*.index
-indexes/
-vector_store/
-
-# Large/local data
-data/raw/
-data/processed/
-
-# Models
-models/
-checkpoints/
+.tox/
+.nox/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local model artifacts
+models/
+checkpoints/
+
+# Local knowledge corpora
+/Physics_Knowledge_Base_full/
+/Physics_Knowledge_Base_test/
+
+# Generated RAG artifacts
+/data/processed/
+/data/evaluation/
+/indexes/
+/vector_store/
+
+# The literal directory data/*processed contains the small demo index
+# referenced by the README and is intentionally kept in version control.
+!/data/\*processed/
+!/data/\*processed/**
+
+# Keep macOS metadata ignored inside the demo directory as well.
+/data/\*processed/.DS_Store
