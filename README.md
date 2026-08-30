@@ -1,4 +1,4 @@
-[English] | [中文](doc/README_zh.md)
+English | [中文](doc/README_zh.md)
 
 # Multilingual Physics RAG System
 
