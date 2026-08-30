@@ -1,4 +1,4 @@
-[English](README.md) | [中文](doc/README_zh.md)
+[English] | [中文](doc/README_zh.md)
 
 # Multilingual Physics RAG System
 
@@ -95,6 +95,8 @@ python scripts/run_rag.py
 ```
 
 Type `q`, `quit`, or `exit` to leave interactive mode.
+You can change the answer language to English by setting  `ANSWER_LANGUAGE="English"` in `app/config.py`
+
 
 #### Use the included test index
 
