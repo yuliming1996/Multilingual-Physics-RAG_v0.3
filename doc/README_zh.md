@@ -1,4 +1,4 @@
-[English](../README.md) | [中文]
+[English](../README.md) | 中文
 
 # 中英双语物理 RAG 系统
 
