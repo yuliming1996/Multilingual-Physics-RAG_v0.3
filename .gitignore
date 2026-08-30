@@ -58,7 +58,7 @@ models/
 checkpoints/
 
 # Local knowledge corpora
-/Physics_Knowledge_Base_full/
+#/Physics_Knowledge_Base_full/
 /Physics_Knowledge_Base_test/
 
 # Generated RAG artifacts
