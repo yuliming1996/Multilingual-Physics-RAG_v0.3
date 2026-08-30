@@ -2,7 +2,7 @@
 
 # 中英双语物理 RAG 系统
 
-这是一个面向中英文物理问答的端到端检索增强生成（Retrieval-Augmented Generation，RAG）项目。系统会扫描本地物理资料集，对文档进行清洗和切块，使用 BGE-M3 生成多语言向量并构建 FAISS 索引；收到问题后，再依次完成中英文问题重写、翻译、查询扩展、检索和重排序，最后根据检索结果生成回答。调整配置文件和提示词后[^prompt-files]，也可以将它用于其他领域的知识库。
+这是一个面向中英文物理问答的端到端检索增强生成（Retrieval-Augmented Generation，RAG）项目。系统会扫描本地物理资料集，对文档进行清洗和切块，使用 BGE-M3 生成多语言向量并构建 FAISS 索引；收到问题后，再依次完成中英文问题重写、翻译、查询扩展、检索和重排序，最后根据检索结果生成回答。调整配置文件和提示词后[^prompt-files]，也可将它用于其他领域的知识库。
 
 [^prompt-files]: 问题重写与翻译的提示词位于 [`app/query/llm_rewriter.py`](../app/query/llm_rewriter.py)，答案生成的提示词位于 [`app/generation/llm_generator.py`](../app/generation/llm_generator.py)。
 
