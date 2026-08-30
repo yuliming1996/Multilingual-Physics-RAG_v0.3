@@ -13,7 +13,7 @@
 
 ```bash
 git clone https://github.com/yuliming1996/Multilingual-Physics-RAG_v0.3.git
-cd RAG_physics_master
+cd Multilingual-Physics-RAG_v0.3
 ```
 
 ### 2. 创建虚拟环境
